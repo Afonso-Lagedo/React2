@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Componente />
+        <Componente titulo="Teste de recebimento props"/>{/*passing props*/}
       </header>
     </div>
   );
